@@ -1,0 +1,30 @@
+select {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: #007aff;
+    font-weight: 600;
+    margin-bottom: 5px;
+    cursor: pointer;
+    appearance: none; /* Removes default arrow for cleaner look */
+}
+
+.ios-picker-wrap {
+    background: #e9e9eb;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 18px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+input:focus {
+    outline: none;
+}
